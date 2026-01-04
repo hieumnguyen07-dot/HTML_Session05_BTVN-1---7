@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-08">
+        <title>Component gửi ý kiến khách hàng</title>
+    </head>
+    <style>
+        .text_color {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color :#1e90ff ;
+        }
+        .resize_input {
+            text-align: center;
+            height: 30 ;
+            width: 190;
+            outline-style: auto;
+            outline-color: #1e90ff;
+        }
+        textarea {
+            text-align: center;
+            width: 190;
+            height: 50;
+            outline-style: auto;
+            outline-color: #1e90ff;
+        }
+        .color_button {
+            text-align: center;
+            color: aliceblue;
+            background-color: #00bfff;
+        }
+    </style>
+    <body>
+    <section>
+        <form action="#" method="get" >
+        <h3 class ="text_color">Ý Kiến Phản Hồi tới Nha Sỹ</h3>
+        <label for ="">Họ và tên :</label><br>
+        <input
+        class="resize_input"
+         type="text" 
+        required 
+        placeholder="Nhập họ và tên"><br>
+        <label for ="">Email:</label><br> 
+        <input
+        class="resize_input"
+         type="email" 
+        required 
+        placeholder="Nhập email của bạn"  ><br>
+        <label for="">Phản hồi của bạn :</label><br>
+        <input
+        class="resize_input"
+         type="text" 
+        required 
+        placeholder="Nhập ý kiến của bạn..."><br>
+        <button type="submit" class="color_button">Gửi ý kiến</button>
+        </form>
+    </section>
+</body>
+</html>
